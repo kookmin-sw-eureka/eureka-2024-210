@@ -1,3 +1,9 @@
+# Eureka Team.10 (class 2)
+
+유레카 프로젝트 2분반 10조 사이트입니다.
+
+---
+
 # Welcome to GitHub
 
 유레카 프로젝트 팀 생성을 축하합니다.
