@@ -1,5 +1,7 @@
 # Eureka Team.10 (class 2)
 
+<script>alert("hhh");</script>
+
 유레카 프로젝트 2분반 10조 사이트입니다.
 
 ---
