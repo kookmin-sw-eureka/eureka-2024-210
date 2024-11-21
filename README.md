@@ -43,52 +43,13 @@ readme 파일 생성에 추가적인 도움이 필요하면 [도움말](https://
 
 
 
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>나를 소개하는 웹페이지</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #2b2b2b;
-      color: #e0e0e0;
-    }
-
-    header {
-      text-align: center;
-      padding: 2rem;
-      background: #1f1f1f;
-      color: #76c7c0;
-      border-bottom: 3px solid #76c7c0;
-    }
-
-    main {
-      margin: 2rem auto;
-      max-width: 800px;
-    }
-
-    .card {
-      opacity: 0;
-      transform: translateX(-50px);
-      transition: opacity 0.8s ease, transform 0.8s ease;
-      margin: 1.5rem 0;
-      padding: 1rem;
-      background: #333;
-      border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
-    }
-
-    .card[data-scroll="right"] {
-      transform: translateX(50px);
-    }
-
-    .card.visible {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
@@ -131,25 +92,6 @@ readme 파일 생성에 추가적인 도움이 필요하면 [도움말](https://
       <p>저는 현재 대학 1학년 학생으로, 앞으로 더 많은 경험과 지식을 쌓아가고 싶습니다.</p>
     </div>
   </main>
-  <script>
-    const cards = document.querySelectorAll('.card');
-
-    const handleScroll = () => {
-      cards.forEach(card => {
-        const rect = card.getBoundingClientRect();
-        const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
-        if (isVisible) {
-          card.classList.add('visible');
-        } else {
-          card.classList.remove('visible');
-        }
-      });
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    // 페이지 로드 시 초기 호출
-    handleScroll();
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
