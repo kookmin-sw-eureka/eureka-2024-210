@@ -92,6 +92,25 @@ readme 파일 생성에 추가적인 도움이 필요하면 [도움말](https://
       <p>저는 현재 대학 1학년 학생으로, 앞으로 더 많은 경험과 지식을 쌓아가고 싶습니다.</p>
     </div>
   </main>
-  <script src="script.js"></script>
+  <script src="script.js">
+    const cards = document.querySelectorAll('.card');
+
+const handleScroll = () => {
+  cards.forEach(card => {
+    const rect = card.getBoundingClientRect();
+    const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
+    if (isVisible) {
+      card.classList.add('visible');
+    } else {
+      card.classList.remove('visible');
+    }
+  });
+};
+
+window.addEventListener('scroll', handleScroll);
+
+// 페이지 로드 시 초기 호출
+handleScroll();
+  </script>
 </body>
 </html>
