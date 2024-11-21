@@ -42,9 +42,7 @@ readme 파일 생성에 추가적인 도움이 필요하면 [도움말](https://
 
 
 
-# 나
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -54,15 +52,16 @@ readme 파일 생성에 추가적인 도움이 필요하면 [도움말](https://
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: #f9f9f9;
-      color: #333;
+      background: #2b2b2b;
+      color: #e0e0e0;
     }
 
     header {
       text-align: center;
       padding: 2rem;
-      background: #4CAF50;
-      color: white;
+      background: #1f1f1f;
+      color: #76c7c0;
+      border-bottom: 3px solid #76c7c0;
     }
 
     main {
@@ -76,9 +75,9 @@ readme 파일 생성에 추가적인 도움이 필요하면 [도움말](https://
       transition: opacity 0.8s ease, transform 0.8s ease;
       margin: 1.5rem 0;
       padding: 1rem;
-      background: white;
+      background: #333;
       border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
     }
 
     .card[data-scroll="right"] {
@@ -141,6 +140,8 @@ readme 파일 생성에 추가적인 도움이 필요하면 [도움말](https://
         const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
         if (isVisible) {
           card.classList.add('visible');
+        } else {
+          card.classList.remove('visible');
         }
       });
     };
