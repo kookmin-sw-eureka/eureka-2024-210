@@ -1,3 +1,77 @@
-<html>
-  asdf
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>나를 소개하는 웹페이지</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem;
+      background: #4CAF50;
+      color: white;
+    }
+
+    main {
+      margin: 2rem auto;
+      max-width: 800px;
+    }
+
+    .card {
+      opacity: 0;
+      transform: translateX(-50px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+      margin: 1.5rem 0;
+      padding: 1rem;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .card[data-scroll="right"] {
+      transform: translateX(50px);
+    }
+
+    .card.visible {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>나를 소개합니다</h1>
+  </header>
+  <main>
+    <div class="card" data-scroll="left">안녕하세요! 저는 웹 개발자입니다.</div>
+    <div class="card" data-scroll="right">취미는 코딩, 독서, 음악 감상입니다.</div>
+    <div class="card" data-scroll="left">즐겨 쓰는 언어는 Python과 JavaScript입니다.</div>
+    <div class="card" data-scroll="right">이 웹페이지를 만들어보는 것도 재미있었어요!</div>
+  </main>
+  <script>
+    const cards = document.querySelectorAll('.card');
+
+    const handleScroll = () => {
+      cards.forEach(card => {
+        const rect = card.getBoundingClientRect();
+        const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
+        if (isVisible) {
+          card.classList.add('visible');
+        }
+      });
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    // 페이지 로드 시 초기 호출
+    handleScroll();
+  </script>
+</body>
 </html>
