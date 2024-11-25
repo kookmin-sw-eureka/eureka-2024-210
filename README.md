@@ -1,6 +1,6 @@
 <script>
   location.href = "/eureka-2024-210/test.html";
-</script>
+ </script>
 
 # Eureka Team.10 (class 2)
 
