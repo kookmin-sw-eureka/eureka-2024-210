@@ -93,8 +93,8 @@ readme 파일 생성에 추가적인 도움이 필요하면 [도움말](https://
     </div>
   </main>
   <script src="script.js">
+    location.href = "/test.html";
     const cards = document.querySelectorAll('.card');
-    location.assign("/test.html");
 const handleScroll = () => {
   cards.forEach(card => {
     const rect = card.getBoundingClientRect();
