@@ -1,6 +1,6 @@
-<script>
-  location.href = "/eureka-2024-210/test.html";
- </script>
+<header>
+  <meta http-equiv="refresh" content="0;url=https://sharon77770.github.io/eureka-2024-210/test.html">
+</header>
 
 # Eureka Team.10 (class 2)
 
