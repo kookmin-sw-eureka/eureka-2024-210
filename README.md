@@ -1,3 +1,7 @@
+<script>
+  location.href = "/eureka-2024-210/test.html";
+</script>
+
 # Eureka Team.10 (class 2)
 
 유레카 프로젝트 2분반 10조 사이트입니다.
@@ -93,7 +97,6 @@ readme 파일 생성에 추가적인 도움이 필요하면 [도움말](https://
     </div>
   </main>
   <script src="script.js">
-    location.href = "/test.html";
     const cards = document.querySelectorAll('.card');
 const handleScroll = () => {
   cards.forEach(card => {
