@@ -1,14 +1,22 @@
 const cards = document.querySelectorAll('.card');
+const introCards = document.querySelectorAll('.intro-card');
 
+console.log(introCards.length());
 const handleScroll = () => {
+  introCards.forEach(card => {
+    const rect = card.getBoundingClientRect();
+    const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
+    if (isVisible) {
+      card.classList.add('visible');
+    } 
+  });
+
   cards.forEach(card => {
     const rect = card.getBoundingClientRect();
     const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
     if (isVisible) {
       card.classList.add('visible');
-    } else {
-      card.classList.remove('visible');
-    }
+    } 
   });
 };
 
