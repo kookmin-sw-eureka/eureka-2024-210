@@ -4,44 +4,70 @@
 
 # Eureka Team.10 (class 2)
 
-유레카 프로젝트 2분반 10조 사이트입니다.
 
----
+## 팀 구성
+- **팀장:** 김영광  
+- **팀원:** 손수환, 손재현, 장우진, 주민재, 하인우  
 
-# Welcome to GitHub
+## 슬로건  
+**"Like debug for the bug"**  
+> 개발할 때 디버깅하여 버그를 제거하듯, 살면서 문제가 생기면 무시하지 말고 문제를 차분히 해결하자.  
 
-유레카 프로젝트 팀 생성을 축하합니다.
+## 공통 관심사
+- **알고리즘**
 
-**팀페이지 주소** -> https://kookmin-sw-eureka.github.io/ '{{분반 및 자신의 팀 번호}}'
+## 조금은 덜 관심사
+- **머신러닝과 인공지능**
 
-**예시)** 2024년 1분반 1조  https://kookmin-sw-eureka.github.io/eureka-2024-101
+## 알아보고 싶은 기회들 (소융대 제공)
+1. **자동차·SW·디자인 융합전공**  
+   - 자동차 + 소프트웨어 + 자동차디자인  
 
-## Markdown을 사용하여 내용꾸미기
+2. **소프트웨어학부 트랙제**  
+   - 빅데이터·머신러닝트랙
+   - 미디어·엔터테인먼트 트랙
+   - IoT융합 트랙
+   - 웹·정보보호 트랙
+   - 엔터프라이즈SW 트랙
 
-Markdown은 작문을 스타일링하기위한 가볍고 사용하기 쉬운 구문입니다. 여기에는 다음을위한 규칙이 포함됩니다.
+3. **경진대회**  
+   - 자율주행경진대회
+   - ICPC
+   - 국민대학교 & 중앙대학교 연합 프로그래밍 경진대회  
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-자세한 내용은 [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Support or Contact
-
-readme 파일 생성에 추가적인 도움이 필요하면 [도움말](https://help.github.com/articles/about-readmes/) 이나 [contact support](https://github.com/contact) 을 이용하세요.
+4. **해외 교육 프로그램**  
+   - 글로벌 경험과 학습의 기회  
 
 
+<br>
+<br>
+
+# 김영광
+## 프로필
+- **입학 전형:** 국민프런티어 전형으로 소프트웨어학부 24학번 입학  
+- **경력:**  
+  - 아지트 소모임 회장  
+  - 수학학원 강사  
+  - 고등학교 여름방학 생기부 특강 강사 초빙 경력  
+
+## MBTI
+- ENFJ-T  
+
+## 관심 분야
+- 정보보안 (네트워크, 해킹 등등)  
+- 알고리즘  
+- 임베디드  
+
+## 특기
+- 주산암산  
+- 맛집탐방  
+- 수학문제풀이  
+
+## 장점
+- 책임감  
+- 성실성  
+- 리더십  
+- 사교성  
+
+## 하고 싶은 말
+> "게으르면 뒤쳐진다"  
