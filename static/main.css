@@ -82,7 +82,7 @@ header nav ul li a:hover {
 
     opacity: 0;
     transform: translateY(150px);
-    transition: opacity 1.2s ease, transform 1.2s ease;
+    transition: opacity 2s ease, transform 2s ease;
 }
 
 .header-content.visible {
@@ -212,7 +212,7 @@ section ul li {
 }
 
 .cards-title {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
     text-align: center;
     position: relative;
@@ -297,6 +297,7 @@ section ul li {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
+    font-size: 1.1rem;
 }
 
 .card blockquote {
@@ -545,6 +546,6 @@ footer a:hover {
 
     .tech-item p {
         font-size: 0.9rem;
-        width: 80px;
+        width: 60px;
     }
 }
